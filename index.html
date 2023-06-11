@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "myApp">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="routing">
+      <div>
+         <a href="#!posts" class="hvr-uline">Posts</a>
+      </div>
+      <div>
+       <a href="#!comments" class="hvr-uline">Comments</a>
+      </div>
+      <div>
+       <a href="#!users" class="hvr-uline">Users</a>
+      </div>
+    </div>
+    <div class="container">
+     <div ng-view>
+   
+     </div>
+    <script src="angular.js"></script>
+  </div>
+</body>
+</html>
